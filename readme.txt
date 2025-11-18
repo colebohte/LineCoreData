@@ -1,0 +1,1 @@
+Welcome to LineCoreOS. To create a new user account, please visit 'setup' then navigate to 'User Setup'. To get help use 'help'; To get help with individual commands, add '#help' to the end of the command. While on LineShell, press HOME to access quickstart; Quickstart is a easy to use program starter. Thank you for using LineCoreOS!
