@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Startpage</title>
+  <style>
+    html,body { height:100%; margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+    .wrap { height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; }
+    .logo { display:flex; align-items:center; gap:10px; text-decoration:none; color:inherit; }
+    .logo svg { width:52px; height:52px; }
+    form { display:flex; width:min(720px, 90%); }
+    input[type="search"] { flex:1; padding:10px 12px; font-size:16px; border:1px solid #ccc; border-right:0; outline:none; }
+    button { padding:10px 14px; font-size:16px; border:1px solid #ccc; background:#f2f2f2; cursor:pointer; }
+    input[type="search"]:focus { box-shadow:0 0 0 3px rgba(0,0,0,0.03); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="logo" href="#" aria-label="Home">
+      <img src="https://colebohte.github.io/LineCoreData/browserwhite.png" alt="LDX Logo" style="width:512px; height:auto;" />
+    </a>
+
+    <form action="https://duckduckgo.com/" method="get" role="search" aria-label="Search DuckDuckGo">
+      <input type="search" name="q" placeholder="Search DuckDuckGo" autocomplete="off" />
+      <button type="submit">Search</button>
+    </form>
+
+    <nav aria-label="quick links" style="font-size:14px; color:#666;">
+      <p>LDX Browser v1.0.12616</p>
+    </nav>
+  </main>
+</body>
+</html>
